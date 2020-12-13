@@ -1,0 +1,15 @@
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+  - scope:
+      path: "assets/css"
+    values:
+      css: true
+  - scope:
+      path: "assets/js"
+    values:
+      js: true
+permalink: pretty
+# baseurl: /masqueradejs/masqueradejs.github.io

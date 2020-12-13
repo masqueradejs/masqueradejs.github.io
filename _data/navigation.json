@@ -1,0 +1,64 @@
+{
+  "menu": [
+    {
+      "label": "Home",
+      "url": "https://masqueradejs.com"
+    },
+    {
+      "label": "Getting Started",
+      "url": "https://docs.masqueradejs.com/getting-started/installation"
+    },
+    {
+      "label": "Docs",
+      "url": "https://docs.masqueradejs.com"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/masqueradejs/masquerade"
+    }
+  ],
+  "footer": {
+    "socials": [
+      {
+        "icon": "fab fa-github",
+        "url": "https://github.com/masqueradejs"
+      },
+      {
+        "icon": "fab fa-npm",
+        "url": "https://npmjs.com/packages/@masquerade"
+      },
+      {
+        "icon": "fab fa-discord",
+        "url": "https://discord.masqueradejs.com"
+      },
+      {
+        "icon": "fab fa-twitter",
+        "url": "https://twitter.com/masqueradejs"
+      }
+    ],
+    "docs": [
+      {
+        "label": "Framework Docs",
+        "url": "https://docs.masqueradejs.com"
+      },
+      {
+        "label": "API Docs",
+        "url": "https://masqueradejs.com/api"
+      }
+    ],
+    "packages": [
+      {
+        "label": "Masquerade",
+        "url": "https://github.com.au/masqueradejs/masquerade"
+      },
+      {
+        "label": "Backstage",
+        "url": "https://github.com.au/masqueradejs/backstage"
+      },
+      {
+        "label": "Stagehand",
+        "url": "https://github.com.au/masqueradejs/stagehand"
+      }
+    ]
+  }
+}

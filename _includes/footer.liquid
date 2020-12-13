@@ -1,0 +1,70 @@
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-links p-relative">
+      <div class="row">
+        <div class="col-md-3 dsn-col-footer">
+          <div class="footer-block">
+            <div class="footer-logo">
+              <img class="light-logo" src="{{ site.baseurl }}/assets/img/logo-light.svg" height="28px" alt="MasqueradeJS"/>
+            </div>
+            <div class="footer-social">
+              <ul>
+                {% for item in site.data.navigation.footer.socials %}
+                <li><a href="{{ item.url }}"><i class="{{ item.icon }}"></i></a></li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 dsn-col-footer">
+          <div class="footer-block col-menu">
+            <h4 class="footer-title">Documentation</h4>
+            <nav>
+              <ul>
+                {% for item in site.data.navigation.footer.docs %}
+                <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+                {% endfor %}
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="col-md-3 dsn-col-footer">
+          <div class="footer-block col-menu">
+            <h4 class="footer-title">Packages</h4>
+            <nav>
+              <ul>
+                {% for item in site.data.navigation.footer.packages %}
+                <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+                {% endfor %}
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="col-md-3 dsn-col-footer">
+          <div class="col-address">
+            <h4 class="footer-title">Discord</h4>
+            <div>
+              <img src="https://img.shields.io/discord/737009125862408274?logo=discord&logoColor=white&style=for-the-badge&color=60dfff" alt="Members Online"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <div class="text-center">
+        <p>© <span id="copyright-year">2021</span> MasqueradeJS | <a href="{{ site.baseurl }}/privacy">Privacy</a> | <a href="{{ site.baseurl }}/terms">Terms</a></p>
+      </div>
+    </div>
+    <div class="trademarks">
+      <p>All product and company names are trademarks&trade; or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.
+        This forms part of our full <a href="{{ site.baseurl }}/disclaimer"
+                                       style="font-size: 10px"
+        >Disclaimer</a>.</p>
+    </div>
+  </div>
+</footer>

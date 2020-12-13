@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="description" content=""/>
+  <meta name="keyword" content=""
+  />
+
+  <!--  Title -->
+  <title>MasqueradeJS - Puppeteer Bot Development Framework</title>
+
+  <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon"/>
+  <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon"/>
+
+  <!-- Styles -->
+  
+  
+    <link href="/assets/css/plugins.css" rel="stylesheet"/>
+  
+    <link href="/assets/css/style.css" rel="stylesheet"/>
+  
+
+</head>
+
+<body class="hamburger-menu dsn-effect-scroll dsn-ajax">
+
+<div class="preloader">
+  <div class="preloader-after"></div>
+  <div class="preloader-before"></div>
+  <div class="preloader-block">
+    <div class="title">masquerade</div>
+    <div class="percent">0</div>
+    <div class="loading">loading...</div>
+  </div>
+  <div class="preloader-bar">
+    <div class="preloader-progress"></div>
+  </div>
+</div>
+
+
+<!-- Nav Bar -->
+<div class="dsn-nav-bar">
+  <div class="site-header">
+    <div class="extend-container">
+      <div class="inner-header">
+        <div class="main-logo">
+          <a href="/">
+            <img class="dark-logo" src="/assets/img/logo-dark.svg" alt="MasqueradeJS"/>
+            <img class="light-logo" src="/assets/img/logo-light.svg" height="32" alt="MasqueradeJS"/>
+          </a>
+        </div>
+      </div>
+      <nav class=" accent-menu main-navigation">
+        <ul class="extend-container">
+          
+          <li><a href="https://masqueradejs.com">Home</a></li>
+          
+          <li><a href="https://docs.masqueradejs.com/getting-started/installation">Getting Started</a></li>
+          
+          <li><a href="https://docs.masqueradejs.com">Docs</a></li>
+          
+          <li><a href="https://github.com/masqueradejs/masquerade">GitHub</a></li>
+          
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="header-top header-top-hamburger">
+    <div class="header-container">
+      <div class="logo main-logo">
+        <a href="/">
+          <img class="dark-logo" src="/assets/img/logo-dark.svg" height="32" alt="MasqueradeJS"/>
+          <img class="light-logo" src="/assets/img/logo-light.svg" height="32" alt="MasqueradeJS"/>
+        </a>
+      </div>
+
+      <div class="menu-icon" data-dsn="parallax" data-dsn-move="5">
+        <div class="icon-m">
+          <i class="menu-icon-close fas fa-times"></i>
+          <span class="menu-icon__line menu-icon__line-left"></span>
+          <span class="menu-icon__line"></span>
+          <span class="menu-icon__line menu-icon__line-right"></span>
+        </div>
+
+        <div class="text-menu">
+          <div class="text-button">Menu</div>
+          <div class="text-open">Open</div>
+          <div class="text-close">Close</div>
+        </div>
+      </div>
+
+      <div class="nav">
+        <div class="inner">
+          <div class="nav__content">
+
+          </div>
+        </div>
+      </div>
+      <div class="nav-content">
+        <div class="inner-content">
+          <address class="v-middle">
+            <span>MasqueradeJS</span>
+            <span>github.com/masqueradejs</span>
+            <span>@masqueradejs</span>
+          </address>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Nav Bar -->
+
+
+<main class="main-root">
+  <div id="dsn-scrollbar">
+
+    <!-- Main -->
+    <div class="dsn-slider" data-dsn-header="project">
+  <div class="dsn-root-slider" id="dsn-hero-parallax-img">
+    <div class="slide-inner">
+      <div class="swiper-wrapper">
+        <div class="slide-item swiper-slide">
+
+          <div class="slide-content">
+            <div class="slide-content-inner">
+              <div class="project-metas">
+                <div class="project-meta-box project-work cat">
+                  <span>Bot Development Framework</span>
+                </div>
+              </div>
+
+              <div class="title-text-header">
+                <div class="title-text-header-inner">
+                  <a href="#" class="effect-ajax" data-dsn-ajax="slider">
+                    MasqueradeJS
+                  </a>
+                </div>
+              </div>
+
+              <p class="fw500">Compose rock-solid automations on the stage
+                every <strong>Puppeteer</strong> actor deserves.</p>
+
+              <div class="link-custom">
+                <a href="https://docs.masqueradejs.com" class="image-zoom effect-ajax" data-dsn="parallax"
+                   data-dsn-ajax="slider"
+                >
+                  <span>View Documentation</span>
+                </a>
+              </div>
+
+            </div>
+          </div>
+          <div class="image-container">
+            <div class="image-bg cover-bg" data-image-src="/assets/img/hero.jpg"
+                 data-overlay="0"
+            >
+              <img src="/assets/img/hero.jpg" alt="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="dsn-slider-content"></div>
+
+  <div class="nav-slider">
+    <div class="swiper-wrapper" role="navigation">
+      <div class="swiper-slide">
+        <div class="image-container">
+          <div class="image-bg cover-bg" data-image-src=""
+               data-overlay="2"
+          >
+          </div>
+        </div>
+        <div class="content">
+          <p>01</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="wrapper">
+
+  <section class="intro-about section-margin">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="intro-content-text">
+
+            <h2 data-dsn-grid="move-section" data-dsn-move="-30"
+                data-dsn-duration="100%" data-dsn-opacity="1.2"
+                data-dsn-responsive="tablet"
+            >
+              When stealth &amp; stability matters
+            </h2>
+
+            <p data-dsn-animate="text">
+              MasqueradeJS is an opinionated, TypeScript-native bot
+              development framework for master Puppeteer
+              composers.</p>
+
+            <h6 data-dsn-animate="text">Automation-Extra</h6>
+            <small data-dsn-animate="text">Stealth Plugin Enabled</small>
+
+            <div class="exper">
+              <div class="numb-ex">
+                <span class="word" data-dsn-animate="text">16</span>
+              </div>
+
+              <h4 data-dsn-animate="up">cutting edge evasions available<br>
+                via <a href="https://github.com/berstend/puppeteer-extra">
+                  Automation-Extra</a>
+              </h4>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="background-mask">
+      <div class="background-mask-bg"></div>
+      <div class="img-box">
+        <div class="img-cent" data-dsn-grid="move-up">
+          <div class="img-container">
+            <!--
+            <img data-dsn-y="30%" src="/assets/img/intro.jpg"
+                 alt="MasqueradeJS Bot Development Framework"
+            >-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="our-services-2 section-margin">
+    <div class="container">
+      <div class="one-title" data-dsn-animate="up">
+        <div class="title-sub-container">
+          <p class="title-sub">Build With Masquerade</p>
+        </div>
+        <h2 class="title-main">Why Masquerade?</h2>
+      </div>
+
+      <div class="row">
+
+        
+        <div class="col-md-4">
+          <div class="services-item">
+            <div class="corner corner-top"></div>
+            <div class="corner corner-bottom"></div>
+            <div class="icon">
+              <img src="assets/img/icons/puppet-show.svg" class="svg-icon"
+                   alt="Complete Framework"
+              >
+            </div>
+            <div class="services-header">
+              <h3>Complete Framework</h3>
+            </div>
+            <p>Masquerade's Backstage framework delivers Browsers, Battle-Tests, Database, Validation and more.</p>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="services-item">
+            <div class="corner corner-top"></div>
+            <div class="corner corner-bottom"></div>
+            <div class="icon">
+              <img src="assets/img/icons/decode.svg" class="svg-icon"
+                   alt="CLI Experience"
+              >
+            </div>
+            <div class="services-header">
+              <h3>CLI Experience</h3>
+            </div>
+            <p>Enjoy a premium command line experience delivered by Heroku's world-class OCLIF library.</p>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="services-item">
+            <div class="corner corner-top"></div>
+            <div class="corner corner-bottom"></div>
+            <div class="icon">
+              <img src="assets/img/icons/undercover.svg" class="svg-icon"
+                   alt="Stealth Evasions"
+              >
+            </div>
+            <div class="services-header">
+              <h3>Stealth Evasions</h3>
+            </div>
+            <p>Use all the free evasions from the AutomationExtra library, and add your key when StealthPro is released.</p>
+          </div>
+        </div>
+        
+
+      </div>
+    </div>
+  </section>
+
+  <div class="box-seat">
+    <div class="dsn-v-text">
+      <div class="container-fluid">
+        <div class="box-middle-text">
+          <h2 data-dsn-animate="text">Compose complex bots in minutes.</h2>
+          <p data-dsn-animate="text">Watch how quickly a Masquerade performance
+            comes together.</p>
+          <a href="https://www.youtube.com/embed/EPnZH4u7KDc" class="vid">
+            <div class="play-button">
+              <div class="play-btn">
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="inner-img" data-dsn-grid="move-up" data-overlay="9">
+          <img class="has-top-bottom"
+               src="/assets/img/video.jpg" alt=""
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <section class="our-services section-margin">
+    <div class="container">
+      <div class="one-title">
+        <div class="title-sub-container">
+          <p class="title-sub">Framework Features</p>
+        </div>
+        <h2 class="title-main">What's in the box?</h2>
+      </div>
+
+      <div class="row">
+        
+        <div class="col-lg-6">
+          <div class="services-item">
+            <div class="line-before"></div>
+            <h4 class="subtitle">Opinionated</h4>
+            <p>Learning bot development becomes much easier with an opinionated (but flexible) application structure, TypeScript, and tooling.</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="services-item">
+            <div class="line-before"></div>
+            <h4 class="subtitle">Native TypeScript</h4>
+            <p>All the benefits of TypeScript from the ground up with sensible build defaults and tooling provided.</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="services-item">
+            <div class="line-before"></div>
+            <h4 class="subtitle">Plugin Ecosystem</h4>
+            <p>Easily use and contribute community plugins with our standardised Service Provider system.</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="services-item">
+            <div class="line-before"></div>
+            <h4 class="subtitle">TSyringe</h4>
+            <p>Get magic Inversion of Control via the lighting-fast, lightweight TSyringe dependency manager maintained by Microsoft.</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="services-item">
+            <div class="line-before"></div>
+            <h4 class="subtitle">Browsers</h4>
+            <p>Use a range of local and remote/anti-fingerprint browsers out of the box, all easily configured with you .env file.</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="services-item">
+            <div class="line-before"></div>
+            <h4 class="subtitle">Auditions</h4>
+            <p>Battle-test your bot logic and environment against an array of public anti-bot vendor demonstration pages.</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="services-item">
+            <div class="line-before"></div>
+            <h4 class="subtitle">Database</h4>
+            <p>Prisma provides beautifully simple database abstraction by default or swap the to any provider you prefer.</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="services-item">
+            <div class="line-before"></div>
+            <h4 class="subtitle">Validation</h4>
+            <p>Parse and validate data with the TypeScript-friendly Zod library by constructing typed schemas.</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="services-item">
+            <div class="line-before"></div>
+            <h4 class="subtitle">Stagehand</h4>
+            <p>Let Stagehand generate common class scaffolding from the CLI using editable ES6 template literals. </p>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="services-item">
+            <div class="line-before"></div>
+            <h4 class="subtitle">Configuration</h4>
+            <p>Customise your stage in minutes with validated .env file and typed Configuration modules.</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="services-item">
+            <div class="line-before"></div>
+            <h4 class="subtitle">Extra-Stealth</h4>
+            <p>Apply cutting edge evasions to your automation logic with the infamous Extra library driving Puppeteer / Playwright.</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="services-item">
+            <div class="line-before"></div>
+            <h4 class="subtitle">Command Driven</h4>
+            <p>Get all the Node CLI goodies and stability from the popular OCLIF framework developed by Heroku. </p>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="services-item">
+            <div class="line-before"></div>
+            <h4 class="subtitle">Compiler</h4>
+            <p>Use the OCLIF binary compiler to turn you Acts into executable code on several target platforms.</p>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+  </section>
+
+  <div class="box-seat box-seat-full section-margin">
+    <div class="container-fluid">
+      <div class="inner-img" data-dsn-grid="move-up">
+        <img data-dsn-scale="1" data-dsn-y="30%"
+             src="/assets/img/community.jpg"
+             alt="MasqueradeJS Botting Community"
+        >
+      </div>
+      <div class="pro-text">
+        <h3>Join the <br> community</h3>
+        <p>Enter the Masquerade party and connect with hundreds of like-minded
+          developers on the <span class="fw500">Automation-Extra</span> Discord.
+        </p>
+        <div class="link-custom">
+          <a class="image-zoom effect-ajax" href="https://discord.masqueradejs.com" data-dsn="parallax">
+            <span>Join on Discord</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="brand-client section-margin">
+    <div class="container">
+      <div class="one-title" data-dsn-animate="up">
+        <div class="title-sub-container">
+          <p class="title-sub">Stable dependencies</p>
+        </div>
+        <h2 class="title-main">Built on solid foundations</h2>
+      </div>
+
+      <div class="wrapper-client">
+        
+        <div class="logo-box">
+          <img src="assets/img/logos/typescript.png" alt="TypeScript">
+          <div class="info">
+            <div class="content">
+              <div class="icon">
+                <i class="fas fa-plus"></i>
+              </div>
+              <div class="entry">
+                <div>
+                  <h5>TypeScript</h5>
+                  <a href="https://typescriptlang.org">typescriptlang.org</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="logo-box">
+          <img src="assets/img/logos/node.png" alt="Node">
+          <div class="info">
+            <div class="content">
+              <div class="icon">
+                <i class="fas fa-plus"></i>
+              </div>
+              <div class="entry">
+                <div>
+                  <h5>Node</h5>
+                  <a href="https://nodejs.org">nodejs.org</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="logo-box">
+          <img src="assets/img/logos/oclif.png" alt="OCLIF">
+          <div class="info">
+            <div class="content">
+              <div class="icon">
+                <i class="fas fa-plus"></i>
+              </div>
+              <div class="entry">
+                <div>
+                  <h5>OCLIF</h5>
+                  <a href="https://oclif.io">oclif.io</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="logo-box">
+          <img src="assets/img/logos/puppeteer.png" alt="Puppeteer">
+          <div class="info">
+            <div class="content">
+              <div class="icon">
+                <i class="fas fa-plus"></i>
+              </div>
+              <div class="entry">
+                <div>
+                  <h5>Puppeteer</h5>
+                  <a href="https://pptr.dev">pptr.dev</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="logo-box">
+          <img src="assets/img/logos/extra.png" alt="AutomationExtra">
+          <div class="info">
+            <div class="content">
+              <div class="icon">
+                <i class="fas fa-plus"></i>
+              </div>
+              <div class="entry">
+                <div>
+                  <h5>AutomationExtra</h5>
+                  <a href="https://github.com/berstend/puppeteer-extra">berstend/puppeteer-extra</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="logo-box">
+          <img src="assets/img/logos/tsyringe.png" alt="TSyringe">
+          <div class="info">
+            <div class="content">
+              <div class="icon">
+                <i class="fas fa-plus"></i>
+              </div>
+              <div class="entry">
+                <div>
+                  <h5>TSyringe</h5>
+                  <a href="https://github.com/microsoft/tsyringe">microsoft/tsyringe</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="logo-box">
+          <img src="assets/img/logos/prisma.png" alt="Prisma">
+          <div class="info">
+            <div class="content">
+              <div class="icon">
+                <i class="fas fa-plus"></i>
+              </div>
+              <div class="entry">
+                <div>
+                  <h5>Prisma</h5>
+                  <a href="https://prisma.io">prisma.io</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="logo-box">
+          <img src="assets/img/logos/zod.png" alt="Zod">
+          <div class="info">
+            <div class="content">
+              <div class="icon">
+                <i class="fas fa-plus"></i>
+              </div>
+              <div class="entry">
+                <div>
+                  <h5>Zod</h5>
+                  <a href="https://github.com/colinhacks/zod">colinhacks/zod</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="logo-box">
+          <img src="assets/img/logos/prettier.png" alt="Prettier">
+          <div class="info">
+            <div class="content">
+              <div class="icon">
+                <i class="fas fa-plus"></i>
+              </div>
+              <div class="entry">
+                <div>
+                  <h5>Prettier</h5>
+                  <a href="https://prettier.io">prettier.io</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+      </div>
+    </div>
+  </section>
+
+
+  <div class="box-gallery-vertical box-gallery-vertical-order section-margin section-padding">
+    <div class="mask-bg"></div>
+    <div class="container">
+      <div class="row align-items-center h-100">
+        <div class="col-lg-6">
+          <div class="box-im" data-dsn-grid="move-up">
+            <!--
+            <img class="has-top-bottom"
+                 src="/assets/img/contributing.jpg"
+                 alt="Contributing to MasqueradeJS bot framework"
+                 data-dsn-move="20%"
+            >-->
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+
+
+          <div class="box-info">
+
+            <div class="vertical-title" data-dsn-animate="up">
+              <h2>Contribute</h2>
+            </div>
+
+            <h6 data-dsn-animate="up">Masquerade is a fast-moving framework and
+              encourages contributions in any form.</h6>
+
+            <p data-dsn-animate="up">We understand everyone has different
+              talents, so we appreciate anything from clean code to the core
+              framework, to plugin development,
+              documentation/translation, or supporting the Issue Tracker.</p>
+
+            <div class="link-custom" data-dsn-animate="up">
+              <a class="image-zoom effect-ajax"
+                 href="https://github.com/masqueradejs/masquerade/CONTRIBUTING.md" data-dsn="parallax"
+              >
+                <span>Contributing Guide</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <section class="contact-up section-margin section-padding">
+  <div class="container">
+    <div class="c-wapp">
+      <a href="https://docs.masqueradejs.com" class="effect-ajax">
+            <span class="hiring">
+                Take the stage
+            </span>
+        <span class="career">Quick Start a new MasqueradeJS project...</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+</div>
+
+    <!-- End Main -->
+
+    <!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-links p-relative">
+      <div class="row">
+        <div class="col-md-3 dsn-col-footer">
+          <div class="footer-block">
+            <div class="footer-logo">
+              <img class="light-logo" src="/assets/img/logo-light.svg" height="28px" alt="MasqueradeJS"/>
+            </div>
+            <div class="footer-social">
+              <ul>
+                
+                <li><a href="https://github.com/masqueradejs"><i class="fab fa-github"></i></a></li>
+                
+                <li><a href="https://npmjs.com/packages/@masquerade"><i class="fab fa-npm"></i></a></li>
+                
+                <li><a href="https://discord.masqueradejs.com"><i class="fab fa-discord"></i></a></li>
+                
+                <li><a href="https://twitter.com/masqueradejs"><i class="fab fa-twitter"></i></a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 dsn-col-footer">
+          <div class="footer-block col-menu">
+            <h4 class="footer-title">Documentation</h4>
+            <nav>
+              <ul>
+                
+                <li><a href="https://docs.masqueradejs.com">Framework Docs</a></li>
+                
+                <li><a href="https://masqueradejs.com/api">API Docs</a></li>
+                
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="col-md-3 dsn-col-footer">
+          <div class="footer-block col-menu">
+            <h4 class="footer-title">Packages</h4>
+            <nav>
+              <ul>
+                
+                <li><a href="https://github.com.au/masqueradejs/masquerade">Masquerade</a></li>
+                
+                <li><a href="https://github.com.au/masqueradejs/backstage">Backstage</a></li>
+                
+                <li><a href="https://github.com.au/masqueradejs/stagehand">Stagehand</a></li>
+                
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="col-md-3 dsn-col-footer">
+          <div class="col-address">
+            <h4 class="footer-title">Discord</h4>
+            <div>
+              <img src="https://img.shields.io/discord/737009125862408274?logo=discord&logoColor=white&style=for-the-badge&color=60dfff" alt="Members Online"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <div class="text-center">
+        <p>© <span id="copyright-year">2021</span> MasqueradeJS | <a href="/privacy">Privacy</a> | <a href="/terms">Terms</a></p>
+      </div>
+    </div>
+    <div class="trademarks">
+      <p>All product and company names are trademarks&trade; or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.
+        This forms part of our full <a href="/disclaimer"
+                                       style="font-size: 10px"
+        >Disclaimer</a>.</p>
+    </div>
+  </div>
+</footer>
+
+  </div>
+</main>
+
+
+<!-- Wait Loader -->
+<div class="wait-loader">
+  <div class="loader-inner">
+    <div class="loader-circle">
+      <div class="loader-layer"></div>
+    </div>
+  </div>
+</div>
+<!-- // Wait Loader -->
+
+
+<!-- JavaScript Bundle -->
+
+
+  <script src="/assets/js/bundle.js"></script>
+
+
+</body>
+
+</html>

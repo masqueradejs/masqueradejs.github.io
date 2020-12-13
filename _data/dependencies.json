@@ -1,0 +1,65 @@
+[
+  {
+    "id": "typescript",
+    "title": "TypeScript",
+    "logo": "assets/img/logos/typescript.png",
+    "url": "https://typescriptlang.org",
+    "domain": "typescriptlang.org"
+  },
+  {
+    "id": "node",
+    "title": "Node",
+    "logo": "assets/img/logos/node.png",
+    "url": "https://nodejs.org",
+    "domain": "nodejs.org"
+  },
+  {
+    "id": "oclif",
+    "title": "OCLIF",
+    "logo": "assets/img/logos/oclif.png",
+    "url": "https://oclif.io",
+    "domain": "oclif.io"
+  },
+  {
+    "id": "puppeteer",
+    "title": "Puppeteer",
+    "logo": "assets/img/logos/puppeteer.png",
+    "url": "https://pptr.dev",
+    "domain": "pptr.dev"
+  },
+  {
+    "id": "extra",
+    "title": "AutomationExtra",
+    "logo": "assets/img/logos/extra.png",
+    "url": "https://github.com/berstend/puppeteer-extra",
+    "domain": "berstend/puppeteer-extra"
+  },
+  {
+    "id": "tsyringe",
+    "title": "TSyringe",
+    "logo": "assets/img/logos/tsyringe.png",
+    "url": "https://github.com/microsoft/tsyringe",
+    "domain": "microsoft/tsyringe"
+  },
+  {
+    "id": "prisma",
+    "title": "Prisma",
+    "logo": "assets/img/logos/prisma.png",
+    "url": "https://prisma.io",
+    "domain": "prisma.io"
+  },
+  {
+    "id": "zod",
+    "title": "Zod",
+    "logo": "assets/img/logos/zod.png",
+    "url": "https://github.com/colinhacks/zod",
+    "domain": "colinhacks/zod"
+  },
+  {
+    "id": "prettier",
+    "title": "Prettier",
+    "logo": "assets/img/logos/prettier.png",
+    "url": "https://prettier.io",
+    "domain": "prettier.io"
+  },
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Opinionated",
+    "content": "Learning bot development becomes much easier with an opinionated (but flexible) application structure, TypeScript, and tooling."
+  },
+  {
+    "title": "Native TypeScript",
+    "content": "All the benefits of TypeScript from the ground up with sensible build defaults and tooling provided."
+  },
+  {
+    "title": "Plugin Ecosystem",
+    "content": "Easily use and contribute community plugins with our standardised Service Provider system."
+  },
+  {
+    "title": "TSyringe",
+    "content": "Get magic Inversion of Control via the lighting-fast, lightweight TSyringe dependency manager maintained by Microsoft."
+  },
+  {
+    "title": "Browsers",
+    "content": "Use a range of local and remote/anti-fingerprint browsers out of the box, all easily configured with you .env file."
+  },
+  {
+    "title": "Auditions",
+    "content": "Battle-test your bot logic and environment against an array of public anti-bot vendor demonstration pages."
+  },
+  {
+    "title": "Database",
+    "content": "Prisma provides beautifully simple database abstraction by default or swap the to any provider you prefer."
+  },
+  {
+    "title": "Validation",
+    "content": "Parse and validate data with the TypeScript-friendly Zod library by constructing typed schemas."
+  },
+  {
+    "title": "Stagehand",
+    "content": "Let Stagehand generate common class scaffolding from the CLI using editable ES6 template literals. "
+  },
+  {
+    "title": "Configuration",
+    "content": "Customise your stage in minutes with validated .env file and typed Configuration modules."
+  },
+  {
+    "title": "Extra-Stealth",
+    "content": "Apply cutting edge evasions to your automation logic with the infamous Extra library driving Puppeteer / Playwright."
+  },
+  {
+    "title": "Command Driven",
+    "content": "Get all the Node CLI goodies and stability from the popular OCLIF framework developed by Heroku. "
+  },
+  {
+    "title": "Compiler",
+    "content": "Use the OCLIF binary compiler to turn you Acts into executable code on several target platforms."
+  }
+]

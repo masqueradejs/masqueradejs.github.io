@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Complete Framework",
+    "icon": "assets/img/icons/puppet-show.svg",
+    "content": "Masquerade's Backstage framework delivers Browsers, Battle-Tests, Database, Validation and more."
+  },
+  {
+    "title": "CLI Experience",
+    "icon": "assets/img/icons/decode.svg",
+    "content": "Enjoy a premium command line experience delivered by Heroku's world-class OCLIF library."
+  },
+  {
+    "title": "Stealth Evasions",
+    "icon": "assets/img/icons/undercover.svg",
+    "content": "Use all the free evasions from the AutomationExtra library, and add your key when StealthPro is released."
+  }
+]

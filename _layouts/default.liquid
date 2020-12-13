@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="description" content="{{ page.description }}"/>
+  <meta name="keyword" content="{{ page.keywords }}"
+  />
+
+  <!--  Title -->
+  <title>{{ page.title }}</title>
+
+  <link rel="shortcut icon" href="{{site.baseurl}}/assets/img/favicon.ico" type="image/x-icon"/>
+  <link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.ico" type="image/x-icon"/>
+
+  <!-- Styles -->
+  {% assign css_files = site.static_files | where: "css", true %}
+  {% for stylesheet in css_files %}
+    <link href="{{ stylesheet.path }}" rel="stylesheet"/>
+  {% endfor %}
+
+</head>
+
+<body class="hamburger-menu dsn-effect-scroll dsn-ajax">
+
+{% include preloader.liquid %}
+
+{% include navigation.liquid %}
+
+<main class="main-root">
+  <div id="dsn-scrollbar">
+
+    <!-- Main -->
+    {{ content }}
+    <!-- End Main -->
+
+    {% include footer.liquid %}
+  </div>
+</main>
+
+
+{% include loader.liquid %}
+
+<!-- JavaScript Bundle -->
+{% assign js_files = site.static_files | where: "js", true %}
+{% for script in js_files %}
+  <script src="{{ script.path }}"></script>
+{% endfor %}
+
+</body>
+
+</html>

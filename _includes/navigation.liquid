@@ -1,0 +1,66 @@
+<!-- Nav Bar -->
+<div class="dsn-nav-bar">
+  <div class="site-header">
+    <div class="extend-container">
+      <div class="inner-header">
+        <div class="main-logo">
+          <a href="{{ site.baseurl }}/">
+            <img class="dark-logo" src="{{ site.baseurl }}/assets/img/logo-dark.svg" alt="MasqueradeJS"/>
+            <img class="light-logo" src="{{ site.baseurl }}/assets/img/logo-light.svg" height="32" alt="MasqueradeJS"/>
+          </a>
+        </div>
+      </div>
+      <nav class=" accent-menu main-navigation">
+        <ul class="extend-container">
+          {% for item in site.data.navigation.menu %}
+          <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="header-top header-top-hamburger">
+    <div class="header-container">
+      <div class="logo main-logo">
+        <a href="{{ site.baseurl }}/">
+          <img class="dark-logo" src="{{ site.baseurl }}/assets/img/logo-dark.svg" height="32" alt="MasqueradeJS"/>
+          <img class="light-logo" src="{{ site.baseurl }}/assets/img/logo-light.svg" height="32" alt="MasqueradeJS"/>
+        </a>
+      </div>
+
+      <div class="menu-icon" data-dsn="parallax" data-dsn-move="5">
+        <div class="icon-m">
+          <i class="menu-icon-close fas fa-times"></i>
+          <span class="menu-icon__line menu-icon__line-left"></span>
+          <span class="menu-icon__line"></span>
+          <span class="menu-icon__line menu-icon__line-right"></span>
+        </div>
+
+        <div class="text-menu">
+          <div class="text-button">Menu</div>
+          <div class="text-open">Open</div>
+          <div class="text-close">Close</div>
+        </div>
+      </div>
+
+      <div class="nav">
+        <div class="inner">
+          <div class="nav__content">
+
+          </div>
+        </div>
+      </div>
+      <div class="nav-content">
+        <div class="inner-content">
+          <address class="v-middle">
+            <span>MasqueradeJS</span>
+            <span>github.com/masqueradejs</span>
+            <span>@masqueradejs</span>
+          </address>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Nav Bar -->
