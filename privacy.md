@@ -1,7 +1,10 @@
 ---
+title: Privacy Policy
+layout: default
 permalink: /privacy/
 ---
-**PRIVACY NOTICE**
+Privacy Policy
+-----------------------------
 
 \
 

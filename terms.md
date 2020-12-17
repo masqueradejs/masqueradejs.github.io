@@ -1,7 +1,9 @@
 ---
+title: Terms of Service
+layout: default
 permalink: /terms/
 ---
-MasqueradeJS Terms of Service
+Terms of Service
 -----------------------------
 
 ### 1. Terms
