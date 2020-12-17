@@ -31,7 +31,9 @@
   <div class="preloader-after"></div>
   <div class="preloader-before"></div>
   <div class="preloader-block">
-    <div class="title">masquerade</div>
+    <div class="title">
+      <img class="light-logo" src="/assets/img/logo-light.svg" height="32" alt="MasqueradeJS"/>
+    </div>
     <div class="percent">0</div>
     <div class="loading">loading...</div>
   </div>
@@ -119,7 +121,7 @@
   <div id="dsn-scrollbar">
 
     <!-- Main -->
-    <div class="dsn-slider" data-dsn-header="project">
+    <div class="dsn-slider" data-dsn-header="project" id="intro">
   <div class="dsn-root-slider" id="dsn-hero-parallax-img">
     <div class="slide-inner">
       <div class="swiper-wrapper">
@@ -141,8 +143,8 @@
                 </div>
               </div>
 
-              <p class="fw500">Compose rock-solid automations on the stage
-                every <strong>Puppeteer</strong> actor deserves.</p>
+              <p class="fw500">Compose rock-solid automation performances on
+                the stage your <strong>Puppeteer</strong> actor deserves.</p>
 
               <div class="link-custom">
                 <a href="https://docs.masqueradejs.com" class="image-zoom effect-ajax" data-dsn="parallax"
@@ -189,7 +191,7 @@
 
 <div class="wrapper">
 
-  <section class="intro-about section-margin">
+  <section class="intro-about section-margin" id="about">
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
@@ -240,7 +242,7 @@
     </div>
   </section>
 
-  <section class="our-services-2 section-margin">
+  <section class="our-services-2 section-margin" id="benefits">
     <div class="container">
       <div class="one-title" data-dsn-animate="up">
         <div class="title-sub-container">
@@ -305,7 +307,7 @@
     </div>
   </section>
 
-  <div class="box-seat">
+  <div class="box-seat" id="video">
     <div class="dsn-v-text">
       <div class="container-fluid">
         <div class="box-middle-text">
@@ -322,7 +324,8 @@
         </div>
         <div class="inner-img" data-dsn-grid="move-up" data-overlay="9">
           <img class="has-top-bottom"
-               src="/assets/img/video.jpg" alt=""
+               src="/assets/img/video.jpg"
+               alt="MasqueradeJS in 12 Minutes"
           >
         </div>
       </div>
@@ -330,7 +333,7 @@
   </div>
 
 
-  <section class="our-services section-margin">
+  <section class="our-services section-margin" id="features">
     <div class="container">
       <div class="one-title">
         <div class="title-sub-container">
@@ -450,7 +453,7 @@
     </div>
   </section>
 
-  <div class="box-seat box-seat-full section-margin">
+  <div class="box-seat box-seat-full section-margin" id="community">
     <div class="container-fluid">
       <div class="inner-img" data-dsn-grid="move-up">
         <img data-dsn-scale="1" data-dsn-y="30%"
@@ -472,7 +475,7 @@
     </div>
   </div>
 
-  <section class="brand-client section-margin">
+  <section class="brand-client section-margin" id="dependencies">
     <div class="container">
       <div class="one-title" data-dsn-animate="up">
         <div class="title-sub-container">
@@ -642,7 +645,8 @@
   </section>
 
 
-  <div class="box-gallery-vertical box-gallery-vertical-order section-margin section-padding">
+  <div
+    class="box-gallery-vertical box-gallery-vertical-order section-margin section-padding" id="contribute">
     <div class="mask-bg"></div>
     <div class="container">
       <div class="row align-items-center h-100">
@@ -720,52 +724,60 @@
             <div class="footer-social">
               <ul>
                 
-                <li><a href="https://github.com/masqueradejs"><i class="fab fa-github"></i></a></li>
+                  <li>
+                    <a href="https://github.com/masqueradejs"><i class="fab fa-github"></i></a>
+                  </li>
                 
-                <li><a href="https://npmjs.com/packages/@masquerade"><i class="fab fa-npm"></i></a></li>
+                  <li>
+                    <a href="https://npmjs.com/packages/@masquerade"><i class="fab fa-npm"></i></a>
+                  </li>
                 
-                <li><a href="https://discord.masqueradejs.com"><i class="fab fa-discord"></i></a></li>
+                  <li>
+                    <a href="https://discord.masqueradejs.com"><i class="fab fa-discord"></i></a>
+                  </li>
                 
-                <li><a href="https://twitter.com/masqueradejs"><i class="fab fa-twitter"></i></a></li>
+                  <li>
+                    <a href="https://twitter.com/masqueradejs"><i class="fab fa-twitter"></i></a>
+                  </li>
                 
               </ul>
             </div>
           </div>
         </div>
 
-        <div class="col-md-3 dsn-col-footer">
+        <div class="col-md-3 dsn-col-footer d-none d-md-block">
           <div class="footer-block col-menu">
             <h4 class="footer-title">Documentation</h4>
             <nav>
               <ul>
                 
-                <li><a href="https://docs.masqueradejs.com">Framework Docs</a></li>
+                  <li><a href="https://docs.masqueradejs.com">Framework Docs</a></li>
                 
-                <li><a href="https://masqueradejs.com/api">API Docs</a></li>
+                  <li><a href="https://masqueradejs.com/api">API Docs</a></li>
                 
               </ul>
             </nav>
           </div>
         </div>
 
-        <div class="col-md-3 dsn-col-footer">
+        <div class="col-md-3 dsn-col-footer d-none d-md-block">
           <div class="footer-block col-menu">
             <h4 class="footer-title">Packages</h4>
             <nav>
               <ul>
                 
-                <li><a href="https://github.com.au/masqueradejs/masquerade">Masquerade</a></li>
+                  <li><a href="https://github.com.au/masqueradejs/masquerade">Masquerade</a></li>
                 
-                <li><a href="https://github.com.au/masqueradejs/backstage">Backstage</a></li>
+                  <li><a href="https://github.com.au/masqueradejs/backstage">Backstage</a></li>
                 
-                <li><a href="https://github.com.au/masqueradejs/stagehand">Stagehand</a></li>
+                  <li><a href="https://github.com.au/masqueradejs/stagehand">Stagehand</a></li>
                 
               </ul>
             </nav>
           </div>
         </div>
 
-        <div class="col-md-3 dsn-col-footer">
+        <div class="col-md-3 dsn-col-footer d-none d-md-block">
           <div class="col-address">
             <h4 class="footer-title">Discord</h4>
             <div>
@@ -776,15 +788,24 @@
       </div>
     </div>
 
-    <div class="copyright">
-      <div class="text-center">
-        <p>© <span id="copyright-year">2021</span> MasqueradeJS | <a href="/privacy">Privacy</a> | <a href="/terms">Terms</a></p>
-      </div>
+    <div class="copyright text-center">
+      <ul class="legals">
+        <li class="d-inline">
+          &copy; <span id="copyright-year">2021</span> MasqueradeJS
+        </li>
+        <li class="d-inline">
+          <a href="/privacy">Privacy</a>
+        </li>
+        <li class="d-inline">
+          <a href="/terms">Terms</a>
+        </li>
+      </ul>
     </div>
     <div class="trademarks">
-      <p>All product and company names are trademarks&trade; or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.
+      <p>All product and company names are trademarks&trade; or registered&reg;
+        trademarks of their respective holders. Use of them does not imply any
+        affiliation with or endorsement by them.
         This forms part of our full <a href="/disclaimer"
-                                       style="font-size: 10px"
         >Disclaimer</a>.</p>
     </div>
   </div>
