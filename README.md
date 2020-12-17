@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://masqueradejs.com/assets/img/banner.png" width="100%">
+  <img src="https://masqueradejs.com/assets/img/banner.jpg" width="100%">
 </div>
 
 <br />
